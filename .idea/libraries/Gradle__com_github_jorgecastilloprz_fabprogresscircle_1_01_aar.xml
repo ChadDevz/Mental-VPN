@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jorgecastilloprz:fabprogresscircle:1.01@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/4fc0a66c90571f662c7f00e6755c7630/transformed/jetified-fabprogresscircle-1.01/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/4fc0a66c90571f662c7f00e6755c7630/transformed/jetified-fabprogresscircle-1.01/res" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/4fc0a66c90571f662c7f00e6755c7630/transformed/jetified-fabprogresscircle-1.01/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/modules-2/files-2.1/com.github.jorgecastilloprz/fabprogresscircle/1.01/6415e3516f6804b2bc269c6c68cf16d8caed6f0d/fabprogresscircle-1.01-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/modules-2/files-2.1/com.github.jorgecastilloprz/fabprogresscircle/1.01/5175d548a4a384434731a254962e414953af7cc5/fabprogresscircle-1.01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

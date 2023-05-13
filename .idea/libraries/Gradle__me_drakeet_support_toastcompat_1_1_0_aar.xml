@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: me.drakeet.support:toastcompat:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/2e6ea2509dacc348bcbdb42d507baa46/transformed/jetified-toastcompat-1.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/2e6ea2509dacc348bcbdb42d507baa46/transformed/jetified-toastcompat-1.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/2e6ea2509dacc348bcbdb42d507baa46/transformed/jetified-toastcompat-1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/modules-2/files-2.1/me.drakeet.support/toastcompat/1.1.0/c05cf5184050e592f449cd424be5c34731ac4fe7/toastcompat-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/modules-2/files-2.1/me.drakeet.support/toastcompat/1.1.0/6b143e29ca4a4219541b547085c5fb2e4870a7f2/toastcompat-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.blacksquircle.ui:editorkit:2.1.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/59575655dd1c5bb11ba21afa38fb4287/transformed/jetified-editorkit-2.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/59575655dd1c5bb11ba21afa38fb4287/transformed/jetified-editorkit-2.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/59575655dd1c5bb11ba21afa38fb4287/transformed/jetified-editorkit-2.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/modules-2/files-2.1/com.blacksquircle.ui/editorkit/2.1.1/c58671765ca9d963b3fdef41bf60752a93efcd7a/editorkit-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

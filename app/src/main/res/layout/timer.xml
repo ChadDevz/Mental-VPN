@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:padding="3.0dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp">
+
+		<ImageView
+			android:layout_width="30.0dip"
+			android:layout_height="30.0dip"
+			android:src="@drawable/ic_clock"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="4.0dip"
+			android:layout_weight="1.0"
+			android:layout_gravity="center">
+
+			<TextView
+				android:textColor="@color/colorPrimary"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Time Left:"
+				android:textSize="11sp"
+				android:textStyle="bold"/>
+
+			<TextView
+				android:textColor="@color/colorPrimary"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:textSize="12.0sp"
+				android:id="@+id/tvTimeRemaining"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="0d:0h:0m:0s"
+				android:layout_marginLeft="3dp"/>
+
+		</LinearLayout>
+
+		<Button
+			android:background="@drawable/btn_rounded"
+			android:textColor="@color/white"
+			android:id="@+id/btnAddTime"
+			android:layout_width="150.0dip"
+			android:layout_height="50dp"
+			android:text="ADD + TIME"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

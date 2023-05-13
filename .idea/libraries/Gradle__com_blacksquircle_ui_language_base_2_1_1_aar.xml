@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.blacksquircle.ui:language-base:2.1.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/ba02a39eb46b2aced77352b36a7e90ae/transformed/jetified-language-base-2.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/ba02a39eb46b2aced77352b36a7e90ae/transformed/jetified-language-base-2.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/ba02a39eb46b2aced77352b36a7e90ae/transformed/jetified-language-base-2.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/modules-2/files-2.1/com.blacksquircle.ui/language-base/2.1.1/be35f186bdb0c1459008cd79a479947feff4e075/language-base-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

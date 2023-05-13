@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:fitsSystemWindows="true">
+
+	<com.google.android.material.appbar.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+	</com.google.android.material.appbar.AppBarLayout>
+
+	
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fitsSystemWindows="true"
+		tools:context=".ui.MainActivity">
+
+		<androidx.coordinatorlayout.widget.CoordinatorLayout
+			android:id="@+id/main_content"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<androidx.cardview.widget.CardView
+				android:visibility="visible"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10.0dip"
+				app:cardCornerRadius="6.0dip"
+				app:cardElevation="5.0dip"
+				app:cardUseCompatPadding="true">
+
+				<LinearLayout
+					android:id="@+id/linearLayout1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center|top"
+					android:orientation="vertical"
+					android:padding="10dp">
+
+					<TextView
+						android:id="@+id/tv_test_state"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:maxLines="2"
+						android:minLines="1"
+						android:text="@string/connection_test_pending"
+						android:textAppearance="@style/TextAppearance.AppCompat.Small"
+						android:textColor="@color/colorPrimary"
+						android:textSize="11dp"/>
+
+					<LinearLayout
+						android:visibility="gone"
+						android:layout_width="wrap_content"
+						android:layout_height="19dp"
+						android:layout_marginTop="3dp"
+						android:gravity="center"
+						android:orientation="horizontal">
+
+						<TextView
+							android:id="@+id/uploadspeed"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginRight="140dp"
+							android:text="0kb ↑"
+							android:textColor="@color/white"/>
+
+						<TextView
+							android:id="@+id/downloadspeed"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:text="0kb ↓"
+							android:textColor="@color/white"/>
+
+					</LinearLayout>
+
+					<Spinner
+						android:id="@+id/popeye"
+						android:layout_width="match_parent"
+						android:layout_height="55dp"
+						android:layout_centerInParent="true"
+						android:layout_marginTop="10dp"
+						android:layout_marginBottom="10dp"
+						android:background="@drawable/grad"
+						android:dropDownVerticalOffset="42dp"
+						android:spinnerMode="dialog"/>
+
+					<include
+						layout="@layout/timer"/>
+
+					<EditText
+						android:id="@+id/et_username"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:ems="10"
+						android:hint="username"
+						android:inputType="textPersonName"
+						android:textColor="#FFFFFFFF"
+						android:textColorHint="#FFFFFFFF"
+						android:visibility="gone"
+						app:layout_anchor="@+id/linearLayout"
+						app:layout_anchorGravity="center"/>
+
+					<EditText
+						android:id="@+id/et_password"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp"
+						android:ems="10"
+						android:hint="password"
+						android:inputType="textPassword"
+						android:textColor="#FFFFFFFF"
+						android:textColorHint="#FFFFFFFF"
+						android:visibility="gone"
+						app:layout_anchor="@+id/editTextTextPersonName"
+						app:layout_anchorGravity="top|center"/>
+
+					<Button
+						android:id="@+id/fab"
+						android:textStyle="bold"
+						android:textColor="@android:color/white"
+						android:background="@drawable/btn_rounded"
+						android:layout_width="fill_parent"
+						android:layout_height="50.0dip"
+						android:layout_marginLeft="50.0dip"
+						android:layout_marginRight="50.0dip"
+						android:text="C O N N E C T"
+						android:textAllCaps="false"/>
+
+					<LinearLayout
+						android:layout_width="320dp"
+						android:layout_height="48dp"
+						android:layout_marginTop="5dp"
+						android:gravity="center|left|top"
+						android:orientation="vertical">
+
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:visibility="gone">
+
+							<TextView
+								android:id="@+id/textView"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginLeft="5dp"
+								android:text="Account Expiry : "
+								android:textColor="#FFFFFFFF"/>
+
+							<TextView
+								android:id="@+id/accountexp"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginLeft="3dp"
+								android:textColor="#FFFFFFFF"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_marginLeft="5dp"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<TextView
+								android:id="@+id/textView2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginLeft="5dp"
+								android:text="Config Version : "
+								android:textColor="@color/colorPrimary"/>
+
+							<TextView
+								android:id="@+id/configver"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginLeft="3dp"
+								android:textColor="@color/colorPrimary"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_marginLeft="5dp"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<TextView
+								android:id="@+id/textView3"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginLeft="5dp"
+								android:text="App Version : "
+								android:textColor="@color/colorPrimary"/>
+
+							<TextView
+								android:id="@+id/appver"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginLeft="3dp"
+								android:textColor="@color/colorPrimary"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</androidx.cardview.widget.CardView>
+
+			<com.google.android.gms.ads.AdView
+				xmlns:ads="http://schemas.android.com/apk/res-auto"
+				android:layout_marginTop="10dp"
+				android:id="@+id/adView"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				ads:adSize="SMART_BANNER"
+				ads:adUnitId="ca-app-pub-3112752528168482/8912705596">
+
+			</com.google.android.gms.ads.AdView>
+
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/recycler_view"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:nextFocusRight="@+id/fab"
+				android:visibility="gone"/>
+
+		</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_above="@id/bottom_navigation"/>
+
+			<com.google.android.material.bottomnavigation.BottomNavigationView
+				android:id="@+id/bottom_navigation"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:background="@color/colorPrimary"
+				app:itemBackground="@color/colorPrimary"
+				app:itemIconTint="@color/bottomwhite"
+				app:itemTextColor="@color/bottomwhite"
+				app:menu="@menu/bottom_nav_menu"/>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
+

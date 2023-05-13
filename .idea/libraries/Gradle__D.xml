@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: D">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/65a29bf172d915410e1326ddb33f3e51/transformed/jetified-libv2ray/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/65a29bf172d915410e1326ddb33f3e51/transformed/jetified-libv2ray/res" />
+      <root url="file://$PROJECT_DIR$/../../SocialTech/.gradle/caches/transforms-3/65a29bf172d915410e1326ddb33f3e51/transformed/jetified-libv2ray/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
